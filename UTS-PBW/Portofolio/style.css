@@ -1,0 +1,61 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 60px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: #343a40;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img {
+    width: 2px;
+    height: 2px;
+    object-fit: cover;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.social-links a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    opacity: 0.8;
+}
+
+.btn-secondary {
+    background: #6c757d;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-secondary:hover {
+    background: #5a6268;
+}
